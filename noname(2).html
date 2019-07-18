@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	#wrapper{
+		width:940px;
+		height:700px;
+		margin:0px auto;
+		overflow:hidden
+	}
+	/*header picture or link div here */
+	#header{
+		width:940px;
+		height:350px;
+		background:url('header.jpg');
+		background-size:cover;
+		background-repeat:no-repeat ;
+		overflow:hidden;
+	}
+	
+	/*this header link div here */
+	
+	#link{width:940px;height:45px;
+	background:black;
+	
+	margin-top:3px;
+	opacity:0.4}
+	
+	/*this link first write here */
+	
+	#link-write{float:left;
+	width:160px;
+	color:white;
+	padding:10px 10px}
+	
+	/*this link div here */
+	#link-here{
+		float:left;
+		
+	}
+	#link-here ul{
+	list-style-type:none;
+	margin:0px;
+	margin-left:150px;
+	}
+	#link-here ul li{
+		float:left;
+		
+	}
+	
+	/*link write achor */
+	
+	#link-here ul li a{
+		color:white;
+		font-weight:bold;
+		padding:15px 18px;
+		display:block;
+		font-size:13px;
+		text-decoration:none;
+		
+	}
+	
+	/*header write width */
+	#header-write{
+		width:400px;
+		margin:50px auto;
+		text-align:center
+	}
+	.could{
+		
+	}
+	
+	/*header write heading here */
+	
+	#header-write .could h2{
+		font-family:sans-serif;
+		color:white;
+		font-weight:bold;
+		font-size:37px;
+		
+	}
+	
+	/*header pera here */
+	
+	#header-write p{
+		padding-top:30px;
+		color:white;
+		font-family:monospace;
+	}
+	
+	/*header button here */
+	
+	#header-write button{
+		margin-top:20px;
+		width:130px;
+		height:30px;
+		background:white;
+		border:1px solid gray;
+		font-family:sans-serif;
+	}
+	/*domain section name here */
+	
+	#section{
+		width:940px;
+		padding:10px;
+		overflow:hidden;
+		background:#0000ff
+	}
+	#search-box{
+		float:left;
+		width:340px;
+		margin-left:40px;
+		background:#0000ff;
+	}
+	#search-box input{
+		width:200px;
+		height:30px;
+		border:1px solid white;
+		padding:8px;
+	}
+	#search-box .com{
+		width:50px;
+		height:30px;
+		position:relative;
+		right:5px;
+		border-bottom:1px solid white;
+		border-right:1px solid white;
+		border-top:1px solid white;
+		border-left:1px solid gray;
+		background:white;
+	}
+	#search-box button{
+		width:50px;
+		height:30px;
+		color:white;
+		font-family:sans;
+		font-weight:bold;
+		border:2px solid black;
+		background:black;
+		position:relative;
+		right:10px
+	}
+	
+	/*domain name div here */
+	
+	#domain-name{
+		float:left;
+		margin-left:40px;
+		padding-top:0
+	}
+	#domain-name .top{
+	font-size:17px;
+	font-weight:bold;
+	
+	color:white;
+	}
+	#domain-name .do-name{
+		margin-left:40px
+	}
+	#domain-name button{
+		width:60px;
+		padding:2px 10px;
+		background:white;
+		border:1px solid white;
+		margin-right:20px;
+		position:relative;
+		
+	}
+	#three-div{
+		width:940px;
+		height:400px;
+		margin-top:80px;
+		position:absolute;
+	}
+	#three-div #write{
+		width:940px;
+		height:80px;
+		text-align:center
+	}
+	#div-here{
+		width:250px;
+		height:270px;
+		float:left;
+		text-align:center;
+		border:2px solid silver;
+		margin-left:45px;
+		
+	}
+	#div-here img{
+		width:100px;
+		height:70px;
+		margin-top:5px;
+	}
+	#div-here h3{
+		padding-top:10px;
+		padding-bottom:10px
+		
+	}
+	#div-here p{
+	padding:5px;
+	font-family:monospace ;
+	color:gray;
+	}
+</style>
+
+
+<!--this jquery function -->
+<script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="link">
+				<div id="link-write">
+					<h2>Canonical Host</h2>
+				</div>
+				<div id="link-here">
+					<ul>
+						<li><a href="#" >DOMAIN</a></li>
+						<li><a href="#" >HOSTING</a></li>
+						<li><a href="#" >SSL</a></li>
+						<li><a href="#" >EMAIL</a></li>
+						<li><a href="#" >ABOUT US</a></li>
+						<li><a href="#" >CONTACT US</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header-write">
+			<div class="could">
+				<h2 class="could-h2">COULD SERVERS</h2>
+				</div>
+				<p class="header-pera">Could servers is your best service
+				for everytime,non problemlity each others
+				can be so out</p>
+				<button class="oder-btn">ODER NOW</button>
+			</div>
+		</div>
+		
+		<!--this products div here -->
+		
+		<div id="section">
+			<div id="search-box">
+				<input type="search" name="search" placeholder="Enter Your Domain Name">
+				<select class="com">
+					<option>.com</option>
+					<option class="op-me">.me</option>
+					<option>.ae</option>
+					<option>.org</option>
+				</select>
+				<button>GO</button>
+			</div>
+			
+			<div id="domain-name">
+				<span class="top">Top Domains</span>
+				<button class="do-name">.com<br>$10.88</button>
+				<button class="do-me">.me<br>$8.55</button>
+				<button>.ae<br>$7.99</button>
+				<button>.org<br>$12.77</button>
+			</div>
+		</div>
+		
+		<!--hidden div with registration -->
+		
+		<div class="hidden" 
+		style="
+			width:945px;
+			
+			height:150px;
+		"
+		>
+			<div id="register"
+			style="
+				margin-left:600px;
+				
+			"
+			>
+				<form>
+					<fieldset style="width:300px;border:2px solid lightgray ">
+						<legend style="font-weight:bold;color:red">Login Here</legend>
+						<label style="font-weight:bold;
+						color:green
+						">Name :</label>
+						<input 
+						style="width:180px;
+						height:15px;
+						border-radius:3px;
+						color:green;
+						padding:5px;"
+						type="text" name="your name" placeholder="Enter Your Name">
+						<br>
+						<br>
+						<label style="color:green;
+						font-weight:bold;">Password :</label>
+						<input
+						 style="width:170px;
+						 height:18px;
+						 color:green;
+						 border-radius:3px;"
+						 type="password" placeholder="Password">
+						<br>
+						<button class="btn"
+						style="width:80px;
+						height:30px;
+						background:aqua;
+						border:1px solid silver;
+						margin-top:10px;
+						margin-left:90px;"
+						
+						>Log In</button>
+							<button id="hide">Hide login menu</button>
+						<br>
+					<p style="padding-top:10px;
+					">I have no account	<a href="#" >Registration Now</a></p>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+		<!--footer three div here -->
+		
+		<div id="three-div">
+			<div id="write">
+			<h1>OUR SERVICE </h1>
+			</div>
+			<div id="div-here">
+				<img src="backup.jpg">
+				<h3>Backup Available </h3>
+				<p>Our best services for this
+				domain here,we are always protect
+				here any domain or any others
+				county here.best services for this
+				domain here,we are always protect
+				here any domain or any others
+				county her best services for this
+				domain here,we are always protect
+				here any domain or any others
+				county her.</p>
+			</div>
+			<div id="div-here">
+			<img src="reliable.jpg">
+			<h3>Reliable Hardware </h3>
+			<p>Our best services for this
+			domain here,we are always protect
+			here any domain or any others
+			county herebest services for this
+			domain here,we are always protect
+			here any dobest services for this
+			domain here,we are always protect
+			here any domain or any others
+			county hermain or any others
+			county her. </p>
+			</div>
+			<div id="div-here">
+			<img src="uptime.jpg">
+			<h3>99.99% UPTIME</h3>
+			<p>Our best services for this
+			domain here,we are always protect
+			here any domain or any others
+			county herebest services for this
+			domain here,we are always protect
+			here any domain or any others
+			county herbest services for this
+			domain here,we are always protect
+			here any domain or any others
+			county her. </p>
+			</div>
+		</div>
+	
+	</div>
+	
+	<script>
+		$(document).ready(function(){
+			$(".hidden").hide()
+			});
+		$(".do-me").click(function(){
+			$(".hidden").toggle(1500);
+		});
+		
+		$(".btn").click(function(){
+			alert("Sorry ! You Have No Account")
+		})
+	</script>
+</body>
+</html>
